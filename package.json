@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tombras",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shareable ESLint config used by Tombras",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tombrasgroup/javascript_guide.git"
+    "url": "git+https://github.com/tombrasgroup/eslint-config-tombras.git"
   },
   "keywords": [
     "eslint",
