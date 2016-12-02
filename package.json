@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-tombras",
+  "version": "1.0.0",
+  "description": "Shareable ESLint config used by Tombras",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tombrasgroup/javascript_guide.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "tombras"
+  ],
+  "author": "Michael Russell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tombrasgroup/javascript_guide/issues"
+  },
+  "homepage": "https://github.com/tombrasgroup/javascript_guide#readme",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^10.0.1"
+  }
+}
