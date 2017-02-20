@@ -3,13 +3,13 @@ module.exports = {
 		"airbnb-base",
 	],
 	"env": {
-		"browser": true
+		"browser": true,
 	},
 	"rules": {
 		"indent": ["error", "tab"],
 		"no-tabs": "off",
 		"import/extensions": ["error", "always", {
-			"js": "always"
-		}]
+			"js": "always",
+		}],
 	},
 };
