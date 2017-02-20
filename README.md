@@ -17,3 +17,12 @@ Create a file named `.eslintrc` and add the following
 	"extends": ["tombras"]
 }
 ```
+
+#### Items Added
+
+- env
+  - browser: true
+- rules
+  - indent: errors, tab
+  - no-tabs: off
+  - import/extensions: errors, always, {js: always}
