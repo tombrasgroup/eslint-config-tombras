@@ -11,7 +11,8 @@ module.exports = {
 	},
 	"rules": {
 		"prettier/prettier": ["error", {
-			"useTabs": true
+			"useTabs": true,
+			"trailingComma": "all"
 		}]
 	},
 };
