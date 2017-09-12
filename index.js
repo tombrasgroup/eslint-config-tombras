@@ -1,15 +1,17 @@
 module.exports = {
 	"extends": [
 		"airbnb-base",
+		"prettier"
+	],
+	"plugins": [
+		"prettier"
 	],
 	"env": {
 		"browser": true,
 	},
 	"rules": {
-		"indent": ["error", "tab"],
-		"no-tabs": "off",
-		"import/extensions": ["error", "always", {
-			"js": "always",
-		}],
+		"prettier/prettier": ["error", {
+			"useTabs": true
+		}]
 	},
 };

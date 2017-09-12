@@ -22,9 +22,12 @@
   },
   "homepage": "https://github.com/tombrasgroup/javascript_guide#readme",
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 4"
   },
   "dependencies": {
-    "eslint-config-airbnb-base": "^10.0.1"
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-config-prettier": "^2.4.0",
+    "eslint-plugin-prettier": "^2.2.0",
+    "prettier": "^1.6.1"
   }
 }
