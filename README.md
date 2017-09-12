@@ -5,7 +5,7 @@ This package provides Tombras' base JS .eslintrc as an extensible shared config.
 #### Install
 
 ```sh
-npm i -g eslint-config-tombras eslint@4 eslint-plugin-import@2
+npm i -g eslint-config-tombras eslint-plugin-prettier prettier eslint@4 eslint-plugin-import@2
 ```
 
 #### Usage
