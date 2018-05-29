@@ -1,18 +1,23 @@
 module.exports = {
-	"extends": [
-		"airbnb-base",
-		"prettier"
+	root: true,
+	parserOptions: {
+		parser: "babel-eslint",
+	},
+	extends: [
+		"eslint:recommended",
+		"plugin:vue/essential",
+		"plugin:prettier/recommended",
 	],
-	"plugins": [
-		"prettier"
-	],
-	"env": {
+	env: {
 		"browser": true,
 	},
-	"rules": {
-		"prettier/prettier": ["error", {
-			"useTabs": true,
-			"trailingComma": "all"
-		}]
-	},
+	rules: {
+		"prettier/prettier": [
+			"error",
+			{
+				useTabs: true,
+				trailingComma: "all",
+			},
+		]
+	}
 };

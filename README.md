@@ -1,11 +1,11 @@
 # eslint-config-tombras
 
-This package provides Tombras' base JS .eslintrc as an extensible shared config. It extends from airbnb-base and prettier.
+This package provides Tombras' base JS .eslintrc as an extensible shared config. It adds vue and prettier on top of eslint:recommended
 
 #### Install
 
 ```sh
-npm i -g eslint-config-tombras eslint-plugin-prettier prettier eslint@4 eslint-plugin-import@2
+npm i eslint-config-tombras eslint-plugin-prettier prettier eslint@4 eslint-plugin-import@2 --save-dev
 ```
 
 #### Usage
@@ -23,4 +23,4 @@ Create a file named `.eslintrc` and add the following
 - env
   - browser: true
 - rules
-  - prettier; useTabs: true
+  - prettier; useTabs: true, trailingComma: all
