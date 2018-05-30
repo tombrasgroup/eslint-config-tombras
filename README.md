@@ -18,9 +18,17 @@ Create a file named `.eslintrc` and add the following
 }
 ```
 
-#### Items Added
+#### Format On Save
 
-- env
-  - browser: true
-- rules
-  - prettier; useTabs: true, trailingComma: all
+##### VS Code
+
+`cmd+,` to open settings then add the following
+
+```json
+"editor.formatOnSave": true,
+"eslint.autoFixOnSave": true,
+```
+
+##### IntelliJ
+
+?? not sure...
