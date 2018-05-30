@@ -25,7 +25,10 @@
   "homepage": "https://github.com/tombrasgroup/javascript_guide#readme",
   "peerDependencies": {
     "eslint": ">= 4",
+    "eslint-config-recommended": "^2.0.0",
+    "babel-eslint": "^8.2.3",
     "eslint-plugin-prettier": "^2.2.0",
+    "eslint-plugin-vue": "^4.5.0",
     "prettier": "^1.6.1"
   },
   "dependencies": {},
