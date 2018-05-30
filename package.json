@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tombras",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Shareable ESLint config used by Tombras",
   "main": "index.js",
   "scripts": {
